@@ -1,0 +1,65 @@
+h1 {
+    color: antiquewhite;
+    text-align: center;
+}
+
+body {
+    background-color: black;
+}
+
+#messages-container {
+    padding: 10px;
+}
+
+#messages-container>ul {
+    list-style: none;
+    padding: inherit;
+}
+
+.message-item {
+    border-radius: 10px;
+    padding: 10px;
+    max-width: 500px;
+    margin: 10px 0;
+}
+
+.agent-message {
+    background-color: rgb(65, 70, 72);
+    color: white;
+    border-bottom-left-radius: 0;
+}
+
+.user-message {
+    margin-left: auto;
+    margin-right: 0;
+    border-bottom-right-radius: 0;
+    background-color: #aadbe3;
+}
+
+#message-box {
+    position: relative;
+    height: 50px;
+    display: table;
+    padding: 10px;
+}
+
+#message-input {
+    font-size: 18px;
+    outline: none;
+    padding: 12px 80px 12px 12px;
+    border: 1px solid #cbcbce;
+    border-radius: 50px;
+}
+
+#send {
+    font-size: 18px;
+    background-color: #448f9b;
+    color: white;
+    cursor: pointer;
+    position: absolute;
+    padding: 9px 10px;
+    border: none;
+    border-radius: 25px;
+    right: 15px;
+    transform: translateY(2.5px);
+}
